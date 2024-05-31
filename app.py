@@ -1,11 +1,6 @@
 import streamlit as st
 from st_paywall import add_auth
 
-# Add detailed logging for debugging
-st.write("Starting the app...")
-
-# Print secrets for debugging (remove after debugging)
-st.write("Loaded secrets:", st.secrets)  # Temporary debugging line to print secrets
 
 # Add authentication and subscription check
 try:
